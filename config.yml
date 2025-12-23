@@ -58,7 +58,7 @@ params:
     profileMode:
           enabled: true
           title: "動物社会生態学・霊長類学研究室 (移行準備中)"
-          subtitle: "このサイトは under construction です。現在の研究室サイトは<a href="https://asehes-home-ous-asehes-0eb9efab727d56fcbf8ca7cced0663ef11d3a418.gitlab.io/">こちら</a>"
+          subtitle: "このサイトは under construction です。現在の研究室サイトは<a href=\"https://asehes-home-ous-asehes-0eb9efab727d56fcbf8ca7cced0663ef11d3a418.gitlab.io/\">こちら</a>"
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
