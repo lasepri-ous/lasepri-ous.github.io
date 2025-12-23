@@ -1,115 +1,128 @@
-baseURL: "https://lasepri-ous.github.io/" 
+baseURL: "https://lasepri-ous.github.io/"
+
 title: LASEPri (under construction)
+
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+
 pagination:
   pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-        - name: News
-          url: news/
-          weight: 1 
-        - name: Books
-          url: books/
-          weight: 4 
-        - name: Papers
-          url: papers/
-          weight: 3
-        - name: Courses
-          url: courses/
-          weight: 2
-        - name: Presentations
-          url: presentations/
-          weight: 5
-        - name: Blog
-          url: blog
-          weight: 6
+  main:
+    - name: News
+      url: news/
+      weight: 1
+    - name: Books
+      url: books/
+      weight: 4
+    - name: Papers
+      url: papers/
+      weight: 3
+    - name: Courses
+      url: courses/
+      weight: 2
+    - name: Presentations
+      url: presentations/
+      weight: 5
+    - name: Blog
+      url: blog
+      weight: 6
 
 params:
-    description: "Dummy description."
-    author: Dummy Laboratory, Dummy University
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-      enabled: true
-      title: "動物社会生態学・霊長類学研究室"
-      subtitle: "このサイトは under construction です。"
-      imageUrl: "picture.jpeg"
-      imageWidth: 160
-      imageHeight: 160
-      buttons:
-        - name: Papers
-          url: papers/
-        - name: Data
-          url: data/
-        - name: Books
-          url: books/
-        - name: Courses
-          url: courses/
-        - name: Tags
-          url: tags/
-        - name: Archive
-          url: archive/
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+  description: "Dummy description."
+  author: Dummy Laboratory, Dummy University
+  # googleAnalyticsID: "G-XXXXX"
 
-    socialIcons:
-        - name: CV
-          url: cv.pdf
-        - name: Email
-          url: mailto:y-takenoshita@ous.ac.jp
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: GitHub
-          url: https://github.com/lasepri-ous
-        - name: YouTube
-          url: https://www.youtube.com/@ous-asepri
+  DateFormat: "January 2006"
+  defaultTheme: light
 
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Moritz-Maria von Igelfeld"
-      icon: favicon.ico
-      iconHeight: 18
+  hideFooter: false
+  disableThemeToggle: true
+
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+
+  ShowAllPagesInArchive: false
+  MainSections: ["books","courses","papers","data"]
+
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+
+  ShowWordCount: false
+  UseHugoToc: true
+
+  comments: false
+  math: true
+
+  profileMode:
+    enabled: true
+    title: "動物社会生態学・霊長類学研究室"
+    subtitle: "このサイトは under construction です。"
+    imageUrl: "picture.jpeg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Papers
+        url: papers/
+      - name: Data
+        url: data/
+      - name: Books
+        url: books/
+      - name: Courses
+        url: courses/
+      - name: Tags
+        url: tags/
+      - name: Archive
+        url: archive/
+      - name: Blog
+        url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    - name: Email
+      url: mailto:y-takenoshita@ous.ac.jp
+    - name: Location
+      url: location/
+    - name: Office Hours
+      url: officehours/
+    - name: GitHub
+      url: https://github.com/lasepri-ous
+    - name: YouTube
+      url: https://www.youtube.com/@ous-asepri
+
+assets:
+  disableScrollBarStyle: true
+
+cover:
+  hiddenInList: false
+  hiddenInSingle: true
+  label:
+    text: "Moritz-Maria von Igelfeld"
+    icon: favicon.ico
+    iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
