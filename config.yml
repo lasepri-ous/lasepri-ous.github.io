@@ -18,22 +18,28 @@ menu:
     - name: News
       url: news/
       weight: 1
-    - name: Books
-      url: books/
-      weight: 4
-    - name: Papers
-      url: papers/
-      weight: 3
     - name: Courses
       url: courses/
       weight: 2
+    - name: Members
+      url: members/
+      weight: 3
+    - name: Papers
+      url: papers/
+      weight: 4
+    - name: Books
+      url: books/
+      weight: 5
     - name: Presentations
       url: presentations/
-      weight: 5
-    - name: Blog
-      url: blog
       weight: 6
-
+    - name: Blog
+      url: blog/
+      weight: 7
+    - name: Tags
+      url: tags/
+      weight: 8
+      
 params:
   description: "Dummy description."
   author: Dummy Laboratory, Dummy University
@@ -70,39 +76,40 @@ params:
   profileMode:
     enabled: true
     title: "動物社会生態学・霊長類学研究室 (移行準備中)"
-    subtitle: "このサイトはサイトリニューアルのためのテストで、 under construction です。現行サイトは<a href='https://asehes-home-ous-asehes-0eb9efab727d56fcbf8ca7cced0663ef11d3a418.gitlab.io/'>こちら</a>"
-    imageUrl: "picture.jpeg"
+    subtitle: "霊長類をはじめとする中大型哺乳類を中心に、野外調査や動物園での行動観察を通じて動物の社会生態を解明します。なお、このサイトはサイトリニューアルのためのテストで、 under construction です。現行サイトは<a href='https://asehes-home-ous-asehes-0eb9efab727d56fcbf8ca7cced0663ef11d3a418.gitlab.io/'>こちら</a>"
+    imageUrl: "picture.jpg"
     imageWidth: 160
     imageHeight: 160
     buttons:
-      - name: Papers
-        url: papers/
-      - name: Data
-        url: data/
-      - name: Books
-        url: books/
+      - name: News
+        url: news/
       - name: Courses
         url: courses/
+      - name: Members
+        url: members/
+      - name: Papers
+        url: papers/
+      - name: Books
+        url: books/
+      - name: Presentations
+        url: presentations/
+      - name: Blog
+        url: blog/
       - name: Tags
         url: tags/
-      - name: Archive
-        url: archive/
-      - name: Blog
-        url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
 
   socialIcons:
-    - name: CV
-      url: cv.pdf
-    - name: Email
-      url: mailto:y-takenoshita@ous.ac.jp
-    - name: Location
-      url: location/
-    - name: Office Hours
-      url: officehours/
-    - name: GitHub
-      url: https://github.com/lasepri-ous
     - name: YouTube
       url: https://www.youtube.com/@ous-asepri
+    - name: Office Hours
+      url: officehours/
+    - name: Location
+      url: location/
+    - name: Email
+      url: mailto:y-takenoshita@ous.ac.jp
+    - name: GitHub
+      url: https://github.com/lasepri-ous
 
 assets:
   disableScrollBarStyle: true
