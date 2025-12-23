@@ -56,27 +56,27 @@ params:
     comments: false
     math: true
     profileMode:
-          enabled: true
-          title: "動物社会生態学・霊長類学研究室"
-          subtitle: 'このサイトは under construction です。'
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Papers
-              url: papers/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+      enabled: true
+      title: "動物社会生態学・霊長類学研究室"
+      subtitle: "このサイトは under construction です。"
+      imageUrl: "picture.jpeg"
+      imageWidth: 160
+      imageHeight: 160
+      buttons:
+        - name: Papers
+          url: papers/
+        - name: Data
+          url: data/
+        - name: Books
+          url: books/
+        - name: Courses
+          url: courses/
+        - name: Tags
+          url: tags/
+        - name: Archive
+          url: archive/
+        - name: Blog
+          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: CV
