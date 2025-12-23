@@ -69,8 +69,8 @@ params:
 
   profileMode:
     enabled: true
-    title: "動物社会生態学・霊長類学研究室"
-    subtitle: "このサイトは under construction です。"
+    title: "動物社会生態学・霊長類学研究室 (移行準備中)"
+    subtitle: "このサイトはサイトリニューアルのためのテストで、 under construction です。"
     imageUrl: "picture.jpeg"
     imageWidth: 160
     imageHeight: 160
