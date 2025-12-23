@@ -57,7 +57,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: 動物社会生態学・霊長類学研究室
+          title: "動物社会生態学・霊長類学研究室"
           subtitle: "当研究室では、霊長類などの中大型哺乳類を中心に、動物の社会のありようをさまざまな観点から理解することを目指します。とくに group living （群居）という現象に着目し、動物たちが共に生きる仲間たちとどのように関わり合っているのか、その実態を解明するとともにその進化を論じます。野外調査と動物園での行動観察がメインです。"
           imageUrl: "picture.jpeg"
           imageWidth: 160
