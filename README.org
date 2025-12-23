@@ -1,0 +1,24 @@
+* Laboratory Website
+
+This repository contains the source code for my research laboratory's website, built with Hugo and deployed on GitHub Pages.
+
+** Status
+🚧 Under Construction — This site is currently being developed. The content is not yet finalized and may not be meaningful at this stage.
+
+** Credits
+This website is based on the template from Pascal Michaillat's website, using the repository at https://github.com/pmichaillat/hugo-website as a template.
+
+** License
+Template and Code
+The website template and code are licensed under the MIT License by Pascal Michaillat. See the LICENSE file for details.
+
+** Content
+Unless otherwise noted, all original content on this site is licensed under CC BY-SA 4.0 © 2025 [Laboratory of Animal Socio-ecology and Primatology, Okayama University of Science].
+
+This does not apply to:
+
+Facts, data, and publicly available information
+Third-party content (properly attributed)
+Personal contact information
+For questions or suggestions, please open an issue in this repository.
+
