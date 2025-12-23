@@ -24,7 +24,7 @@ menu:
         - name: Courses
           url: courses/
           weight: 2
-	- name: Presentations
+        - name: Presentations
           url: presentations/
           weight: 5
         - name: Blog
